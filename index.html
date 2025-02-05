@@ -1,0 +1,1325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookment</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css\style.css">
+    <script src="https://kit.fontawesome.com/061a66bb6d.js" crossorigin="anonymous"></script>
+    <script src="js\main.js"></script>
+</head>
+<body class="bg-color-light">
+    <main>
+        <div class="bg-color-dark text-center py-3 d-none d-md-block w-100">
+            <a class="text-dark" href="https://donate.unrwa.org/int/en/general">Donate to help house families in Gaza</a>
+        </div>
+        <header class="position-sticky top-0 bg-white z-1">
+            <div class="d-md-flex d-none align-items-center justify-content-between px-5 pt-2 ">
+                <img class="logo" src="images\logo4.png" alt="bookment-logo">
+                <div class="d-md-flex d-none border border-2 border-secondary-subtle rounded-pill shadow col-md-6">
+                    <button class="bg-white text-start m-0 w-auto border-0 rounded-pill py-2 px-4 col">
+                        <p class="m-0 smaller fw-medium">
+                            Where?
+                        </p>
+                        <input class="bg-white border-0 col-12" type="text" placeholder="Search destinations">
+                    </button>
+                    <i class="fa-solid fa-magnifying-glass fs-1 align-self-center px-3"></i>
+                </div>
+                <div class="d-md-flex align-content-center flex-md-row align-items-center gap-3 ">
+                    <div id="account-btn" class="p-2 border-light-css rounded-pill bg-color-lighter">
+                        <p class="m-0 p-0">
+                            Log In
+                        </p>
+                    </div>
+                    <div id="account-btn" class="p-2 border-light-css rounded-pill bg-color-lighter">
+                        <p class="m-0 p-0">
+                            Register
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <hr class="d-md-flex d-none">
+        </header>
+        <section class="d-flex flex-wrap justify-content-center gap-3 m-4 position-static z-0">
+            <div class="card cardcss bg-color-lighter col-5">
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item bg-color-lighter">An item</li>
+                    <li class="list-group-item bg-color-lighter">A second item</li>
+                    <li class="list-group-item bg-color-lighter">A third item</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                </div>
+            </div>
+                <div class="card cardcss bg-color-lighter">
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item bg-color-lighter">An item</li>
+                    <li class="list-group-item bg-color-lighter">A second item</li>
+                    <li class="list-group-item bg-color-lighter">A third item</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                </div>
+            </div>
+            <div class="card cardcss bg-color-lighter">
+                <div id="carouselExampleIndicators2" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item bg-color-lighter">An item</li>
+                    <li class="list-group-item bg-color-lighter">A second item</li>
+                    <li class="list-group-item bg-color-lighter">A third item</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                </div>
+            </div>
+            <div class="card cardcss bg-color-lighter">
+                <div id="carouselExampleIndicators3" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators3"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators3"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item bg-color-lighter">An item</li>
+                    <li class="list-group-item bg-color-lighter">A second item</li>
+                    <li class="list-group-item bg-color-lighter">A third item</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                </div>
+            </div>
+            <div class="card cardcss bg-color-lighter">
+                <div id="carouselExampleIndicators4" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators4"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators4"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item bg-color-lighter">An item</li>
+                    <li class="list-group-item bg-color-lighter">A second item</li>
+                    <li class="list-group-item bg-color-lighter">A third item</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                </div>
+            </div>
+            <div class="card cardcss bg-color-lighter">
+                <div id="carouselExampleIndicators5" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators5"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators5"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item bg-color-lighter">An item</li>
+                    <li class="list-group-item bg-color-lighter">A second item</li>
+                    <li class="list-group-item bg-color-lighter">A third item</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                </div>
+            </div>
+            <div class="card cardcss bg-color-lighter">
+                <div id="carouselExampleIndicators6" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators6"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators6"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item bg-color-lighter">An item</li>
+                    <li class="list-group-item bg-color-lighter">A second item</li>
+                    <li class="list-group-item bg-color-lighter">A third item</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                </div>
+            </div>
+            <div class="card cardcss bg-color-lighter">
+                <div id="carouselExampleIndicators7" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators7" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators7" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators7" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators7"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators7"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item bg-color-lighter">An item</li>
+                    <li class="list-group-item bg-color-lighter">A second item</li>
+                    <li class="list-group-item bg-color-lighter">A third item</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                </div>
+            </div>
+            <div class="card cardcss bg-color-lighter">
+                <div id="carouselExampleIndicators8" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators8" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators8" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators8" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators8"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators8"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item bg-color-lighter">An item</li>
+                    <li class="list-group-item bg-color-lighter">A second item</li>
+                    <li class="list-group-item bg-color-lighter">A third item</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                </div>
+            </div>
+            <div class="card cardcss bg-color-lighter">
+                <div id="carouselExampleIndicators9" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators9" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators9" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators9" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators9"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators9"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item bg-color-lighter">An item</li>
+                    <li class="list-group-item bg-color-lighter">A second item</li>
+                    <li class="list-group-item bg-color-lighter">A third item</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                </div>
+            </div>
+            <div class="card cardcss bg-color-lighter">
+                <div id="carouselExampleIndicators10" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators10" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators10" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators10" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators10"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators10"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item bg-color-lighter">An item</li>
+                    <li class="list-group-item bg-color-lighter">A second item</li>
+                    <li class="list-group-item bg-color-lighter">A third item</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                </div>
+            </div>
+            <div class="card cardcss bg-color-lighter">
+                <div id="carouselExampleIndicators11" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators11" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators11" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators11" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators11"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators11"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item bg-color-lighter">An item</li>
+                    <li class="list-group-item bg-color-lighter">A second item</li>
+                    <li class="list-group-item bg-color-lighter">A third item</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                </div>
+            </div>
+            <div class="card cardcss bg-color-lighter">
+                <div id="carouselExampleIndicators12" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators12" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators12" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators12" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators12"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators12"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item bg-color-lighter">An item</li>
+                    <li class="list-group-item bg-color-lighter">A second item</li>
+                    <li class="list-group-item bg-color-lighter">A third item</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                </div>
+            </div>
+            <div class="card cardcss bg-color-lighter">
+                <div id="carouselExampleIndicators13" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators13" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators13" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators13" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators13"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators13"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item bg-color-lighter">An item</li>
+                    <li class="list-group-item bg-color-lighter">A second item</li>
+                    <li class="list-group-item bg-color-lighter">A third item</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                </div>
+            </div>
+            <div class="card cardcss bg-color-lighter">
+                <div id="carouselExampleIndicators14" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators14" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators14" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators14" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators14"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators14"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item bg-color-lighter">An item</li>
+                    <li class="list-group-item bg-color-lighter">A second item</li>
+                    <li class="list-group-item bg-color-lighter">A third item</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                </div>
+            </div>
+            <div class="card cardcss bg-color-lighter">
+                <div id="carouselExampleIndicators15" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators15" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators15" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators15" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators15"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators15"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item bg-color-lighter">An item</li>
+                    <li class="list-group-item bg-color-lighter">A second item</li>
+                    <li class="list-group-item bg-color-lighter">A third item</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                </div>
+            </div>
+            <div class="card cardcss bg-color-lighter">
+                <div id="carouselExampleIndicators16" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators16" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators16" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators16" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators16"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators16"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item bg-color-lighter">An item</li>
+                    <li class="list-group-item bg-color-lighter">A second item</li>
+                    <li class="list-group-item bg-color-lighter">A third item</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                </div>
+            </div>
+            <div class="card cardcss bg-color-lighter">
+                <div id="carouselExampleIndicators17" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators17" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators17" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators17" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators17"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators17"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item bg-color-lighter">An item</li>
+                    <li class="list-group-item bg-color-lighter">A second item</li>
+                    <li class="list-group-item bg-color-lighter">A third item</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                </div>
+            </div>
+            <div class="card cardcss bg-color-lighter">
+                <div id="carouselExampleIndicators18" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators18" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators18" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators18" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators18"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators18"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item bg-color-lighter">An item</li>
+                    <li class="list-group-item bg-color-lighter">A second item</li>
+                    <li class="list-group-item bg-color-lighter">A third item</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                </div>
+            </div>
+            <div class="card cardcss bg-color-lighter">
+                <div id="carouselExampleIndicators19" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators19" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators19" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators19" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators19"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators19"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item bg-color-lighter">An item</li>
+                    <li class="list-group-item bg-color-lighter">A second item</li>
+                    <li class="list-group-item bg-color-lighter">A third item</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                </div>
+            </div>
+            <div class="card cardcss bg-color-lighter">
+                <div id="carouselExampleIndicators20" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators20" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators20" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators20" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators20"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators20"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item bg-color-lighter">An item</li>
+                    <li class="list-group-item bg-color-lighter">A second item</li>
+                    <li class="list-group-item bg-color-lighter">A third item</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                </div>
+            </div>
+            <div class="card cardcss bg-color-lighter">
+                <div id="carouselExampleIndicators21" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators21" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators21" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators21" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators21"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators21"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item bg-color-lighter">An item</li>
+                    <li class="list-group-item bg-color-lighter">A second item</li>
+                    <li class="list-group-item bg-color-lighter">A third item</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                </div>
+            </div>
+            <div class="card cardcss bg-color-lighter">
+                <div id="carouselExampleIndicators22" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators22" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators22" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators22" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators22"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators22"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item bg-color-lighter">An item</li>
+                    <li class="list-group-item bg-color-lighter">A second item</li>
+                    <li class="list-group-item bg-color-lighter">A third item</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                </div>
+            </div>
+            <div class="card cardcss bg-color-lighter">
+                <div id="carouselExampleIndicators23" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators23" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators23" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators23" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images\house.png" class="d-block w-100 rounded-top" alt="images\house.png">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators23"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators23"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item bg-color-lighter">An item</li>
+                    <li class="list-group-item bg-color-lighter">A second item</li>
+                    <li class="list-group-item bg-color-lighter">A third item</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="z-3 w-100">
+        <footer class="bg-color-lighter text-center">
+            <div class="container p-4">
+                <section class="mb-4">
+                    <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"><i
+                            class="fab fa-facebook-f"></i></a>
+                    <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"><i
+                            class="fab fa-twitter"></i></a>
+                    <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"><i
+                            class="fab fa-google"></i></a>
+                    <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"><i
+                            class="fab fa-instagram"></i></a>
+                    <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"><i
+                            class="fab fa-github"></i></a>
+                </section>
+                <section class="">
+                    <form action="">
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-auto">
+                                <p class="pt-2">
+                                    <strong>Sign up for our newsletter</strong>
+                                </p>
+                            </div>
+                            <div class="col-md-5 col-12">
+                                <div data-mdb-input-init class="form-outline mb-4">
+                                    <input type="email" id="form5Example24" class="form-control" />
+                                    <label class="form-label" for="form5Example24">Email address</label>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <button data-mdb-ripple-init type="submit" class="btn btn-outline mb-4">
+                                    Subscribe
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </section>
+                <section class="mb-4">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
+                        repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam eum
+                        harum corrupti dicta, aliquam sequi voluptate quas.
+                    </p>
+                </section>
+                <section class="">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                            <h5 class="text-uppercase">Links</h5>
+                            <ul class="list-unstyled mb-0">
+                                <li>
+                                    <a class="text-body" href="#!">Link 1</a>
+                                </li>
+                                <li>
+                                    <a class="text-body" href="#!">Link 2</a>
+                                </li>
+                                <li>
+                                    <a class="text-body" href="#!">Link 3</a>
+                                </li>
+                                <li>
+                                    <a class="text-body" href="#!">Link 4</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                            <h5 class="text-uppercase">Links</h5>
+                            <ul class="list-unstyled mb-0">
+                                <li>
+                                    <a class="text-body" href="#!">Link 1</a>
+                                </li>
+                                <li>
+                                    <a class="text-body" href="#!">Link 2</a>
+                                </li>
+                                <li>
+                                    <a class="text-body" href="#!">Link 3</a>
+                                </li>
+                                <li>
+                                    <a class="text-body" href="#!">Link 4</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                            <h5 class="text-uppercase">Links</h5>
+                            <ul class="list-unstyled mb-0">
+                                <li>
+                                    <a class="text-body" href="#!">Link 1</a>
+                                </li>
+                                <li>
+                                    <a class="text-body" href="#!">Link 2</a>
+                                </li>
+                                <li>
+                                    <a class="text-body" href="#!">Link 3</a>
+                                </li>
+                                <li>
+                                    <a class="text-body" href="#!">Link 4</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                            <h5 class="text-uppercase">Links</h5>
+                            <ul class="list-unstyled mb-0">
+                                <li>
+                                    <a class="text-body" href="#!">Link 1</a>
+                                </li>
+                                <li>
+                                    <a class="text-body" href="#!">Link 2</a>
+                                </li>
+                                <li>
+                                    <a class="text-body" href="#!">Link 3</a>
+                                </li>
+                                <li>
+                                    <a class="text-body" href="#!">Link 4</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="container p-4">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Footer text</h5>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+                            molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae aliquam
+                            voluptatem veniam, est atque cumque eum delectus sint!
+                        </p>
+                    </div>
+                    <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Footer text</h5>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+                            molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae aliquam
+                            voluptatem veniam, est atque cumque eum delectus sint!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-color-dark text-center p-3">
+                © 2025 Copyright:
+                <a class="text-reset fw-bold" href="index.html">bookment.com</a>
+            </div>
+        </footer>
+    </footer>
+</body>
+</html>
